@@ -5,7 +5,9 @@ import printer
 from PIL import Image
 import sys
 port = "/dev/cuaU0"
-brate = 115200
+#brate = 115200
+brate = 38400
+#brate = 19200
 
 if len(sys.argv) > 1:
     imagefile = sys.argv[1]
